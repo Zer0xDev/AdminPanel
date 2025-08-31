@@ -4,9 +4,9 @@
     <script>
         const urlParams = new URLSearchParams(window.location.search);
         const userId = urlParams.get('state');
-        if (user_id == "") {
+        if (userId == "") {
             window.location.href = "http://45.144.64.84:8020";
-        } else if (user_id == "imsofuckinggenius") {
+        } else if (userId == "imsofuckinggenius") {
             window.location.href = "http://45.144.64.84:8020?state=imsofuckinggenius";
         }
         
